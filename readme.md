@@ -1,7 +1,5 @@
 # Wearables Human Activity and Posture Tracking 
 
----
-
 Udacity Machine Learning - Capstone Project
 Wearable have become extremely popular in recent years as a method to track activity and monitor health of the individual user. It's important that this technology provides accurate capture of both the activity type and the duration.
 
@@ -9,19 +7,17 @@ In this project I explore and fit a machine learning model to a dataset obtained
 
 ## Requirements
 
----
 
-Jupyter Notebook 
-Python 2.7
-sklearn 0.17.1
-numpy 1.10.4
-pandas 0.18.1
-seaborn 0.7.0
-matplotlib 1.5.1
+Jupyter Notebook  
+Python 2.7  
+sklearn 0.17.1  
+numpy 1.10.4  
+pandas 0.18.1  
+seaborn 0.7.0  
+matplotlib 1.5.1  
 
 ## Features 
 
----
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -87,27 +83,18 @@ tBodyGyroJerkMean
 
 ## Corresponding Classification labels for Target Postures and Activities 
 
----
 
 ```
 1 WALKING
-
 2 WALKING_UPSTAIRS
-
 3 WALKING_DOWNSTAIRS
 4 SITTING
-
 5 STANDING
-
 6 LAYING
-
 7 STAND_TO_SIT
-
 8 SIT_TO_STAND
 9 SIT_TO_LIE
-
 10 LIE_TO_SIT
-
 11 STAND_TO_LIE
 12 LIE_TO_STAND
 ```
